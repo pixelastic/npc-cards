@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -e
+
+node-sass-chokidar ./src/scss -o ./dist/css/ --watch --recursive

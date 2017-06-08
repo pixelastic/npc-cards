@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -e
+
+mkdir -p ./dist
+yarn run build
+
+parallelshell \
+  "./scripts/serve-pug" \
+  "./scripts/serve-scss" \
+  "live-server ./dist"
+

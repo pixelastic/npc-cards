@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# Update tachyons.css
+mkdir -p ./src/scss/vendors/
+cp -r ./node_modules/tachyons-sass/scss ./src/scss/vendors/tachyons

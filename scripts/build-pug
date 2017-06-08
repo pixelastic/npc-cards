@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+
+mkdir -p ./tmp
+pug ./src/pug/index.pug -o ./dist/

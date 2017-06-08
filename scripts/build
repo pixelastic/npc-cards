@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+
+yarn run build-pug
+yarn run build-scss
