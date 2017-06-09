@@ -1,0 +1,16 @@
+// NAME {{{
+.name {
+  padding-right: 4rem;
+  position: relative;
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 3rem;
+    background-image: linear-gradient(to top right, black 50%, white 50%) ;
+  }
+}
+// }}}
