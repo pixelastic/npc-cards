@@ -50,6 +50,9 @@
 .blur-4 { filter: blur(4px); }
 .blur-5 { filter: blur(5px); }
 // }}}
+// COLORS {{{
+.transparent { color: transparent;}
+// }}}
 // FONTS {{{
 .caslon { font-family: Caslon; }
 // }}}
@@ -127,6 +130,7 @@
 .scale-200 { transform: scale(2) }
 // }}}
 // WIDTHS {{{
+.w-15 { width: 15%; }
 .miw-50 { min-width: 50%; }
 .maw-33 { max-width: 33%; }
 .maw1 { max-width: 1rem; }

@@ -1,0 +1,95 @@
+mixin npc(data)
+  - bg_image = `background-image: url('./img/${data.picture}');`
+  - combat_stats = {}
+  - if (data.stats.fighting) combat_stats.fighting = data.stats.fighting.split(' / ')
+  - if (data.stats.shooting) combat_stats.shooting = data.stats.shooting.split(' / ')
+  - if (data.stats.spellcasting) combat_stats.spellcasting = data.stats.spellcasting.split(' / ')
+  .card-wrapper
+    .card.oh
+      .flrnw.h-50
+        .picture.fln.w-third.bg-contain.bg-top(style=bg_image)
+        .fla.flrnw
+          .fla.flcnw
+            .fln.flrnw
+              .name.fln.bg-black.white.caslon.f3.ph2.pv1= data.name
+              .fla.flrnw.flrar.pr2
+                .pace.fln.relative.flc.w2.b.f4.mr2= data.stats.pace
+                  .absolute.absolute-0.o-50.bg-contain.bg-center(style="background-image:url('./img/icons/pace.png')")
+                .charisma.fln.relative.flc.w2.b.f4= data.stats.charisma
+                  .absolute.absolute-0.o-50.bg-contain.bg-center(style="background-image:url('./img/icons/charisma.png')")
+            .fla.flrnw
+              .fln.flcnw.flcspa.w3
+                .parry.fln.h-50.relative.flrw.flrspa
+                  .absolute.absolute-0.o-50.bg-contain.bg-center(style="background-image:url('./img/icons/parry.png')")
+                  .fln.flc.b.f4.miw-50= data.stats.parry
+                  .fln.flc.b.f4.miw-50= data.stats.parry + 4
+                .toughness.fln.h-50.relative.flrw.flrspa
+                  .absolute.absolute-0.o-50.bg-contain.bg-center(style="background-image:url('./img/icons/toughness.png')")
+                  - for(var i=0;i!=data.stats.wounds + 1;i++) {
+                  .fln.flc.b.f4.miw-50= data.stats.toughness + (i * 4)
+                  -}
+              .fla.flcnw.pt1.pr1.pl1
+                .fight-stats.fln.flcnw.flccv
+                  if combat_stats.fighting
+                    .fln.flrnw.mb1
+                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/fighting.png')")
+                      .fln.ph1.w3= combat_stats.fighting[0]
+                      .fln.ph1= combat_stats.fighting[1]
+                  if combat_stats.shooting
+                    .fln.flrnw.mb1
+                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/shooting.png')")
+                      .fln.ph1.w3= combat_stats.shooting[0]
+                      .fln.ph1= combat_stats.shooting[1]
+                  if combat_stats.spellcasting
+                    .fln.flrnw.mb1
+                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/spellcasting.png')")
+                      .fln.ph1.w3= combat_stats.spellcasting[0]
+                      .fln.ph1= combat_stats.spellcasting[1]
+                .skills.fln.flrw.flral.mta
+                  each skill in data.skills.sort()
+                    .fln.mr1.flc
+                      .ph1= skill
+
+          .stats.fln.flcnw.flcspa
+            .agility.fla.ph1.bg-gold.bt.bl.bb.bw1.b--black-60.br-pill.br--left.flrnw.flc
+              .fln.b.navy.small-caps AG
+              .fln.pl1.near-black= data.stats.agility
+            .smarts.fla.ph1.bg-gold.bt.bl.bb.bw1.b--black-60.br-pill.br--left.flrnw.flc
+              .fln.b.navy.small-caps SM
+              .fln.pl1.near-black= data.stats.smarts
+            .spirit.fla.ph1.bg-gold.bt.bl.bb.bw1.b--black-60.br-pill.br--left.flrnw.flc
+              .fln.b.navy.small-caps SP
+              .fln.pl1.near-black= data.stats.spirit
+            .strength.fla.ph1.bg-gold.bt.bl.bb.bw1.b--black-60.br-pill.br--left.flrnw.flc
+              .fln.b.navy.small-caps ST
+              .fln.pl1.near-black= data.stats.strength
+            .vigor.fla.ph1.bg-gold.bt.bl.bb.bw1.b--black-60.br-pill.br--left.flrnw.flc
+              .fln.b.navy.small-caps VI
+              .fln.pl1.near-black= data.stats.vigor
+
+      .h-50.flrnw.f6
+        .fla.flcnw.flcspb.pa2
+          +npc_detail('Description', data.description)
+          +npc_detail('Roleplay', data.roleplay)
+          +npc_detail('Motivation', data.motivation)
+          +npc_detail('Tactics', data.tactics)
+          if data.quotes
+            .mb1
+              .b.di Citations: 
+              .di.i
+                each quote in data.quotes
+                  =`"${quote}" `
+        .fln.w-third.flcnw.flcspb.pa2
+          +npc_detail('Spells', data.spells)
+          +npc_detail('Special', data.special)
+          +npc_detail('Edges', data.edges)
+          +npc_detail('Hindrances', data.hindrances)
+          +npc_detail('Gear', data.gear)
+
+mixin npc_detail(title, value)
+  - if (!value) return
+  - if (!Array.isArray(value)) value = [value]
+  - if (!value.length) return
+  .mb1
+    .b.di= `${title}: `
+    .di= `${value.join(". ")}.`

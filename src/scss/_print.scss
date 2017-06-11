@@ -1,15 +1,24 @@
 @media print {
+  // Needs to be printed in "Hagaki Borderless", and removing all margins
   @page {
     size: $print-height $print-width;
   }
   
-  // Always change page before each card, forcing it to print each card on a new
-  // real card
   .card {
+    // Always change page before each card, forcing it to print each card on a new
+    // real card
     page-break-before: always;
+    // Rotate card 90deg as my printer only accepts cards in portrait mode
     transform: rotate(90deg);
     transform-origin: bottom left;
     margin-top: -$print-height;
+
+    margin-right: 50px;
+  }
+  // We change the dimensions so the printing works correctly
+  .card-wrapper {
+    width: $print-height;
+    height: $print-width;
   }
 }
 

@@ -1,20 +1,6 @@
 @import '_tachyons';
+@import '_variables';
 @import '_fonts';
 @import '_utils';
 @import '_custom';
-
-$print-width: 150mm;
-$print-height: 100mm;
 @import '_print';
-
-.card {
-  width: $print-width;
-  min-width: $print-width;
-  max-width: $print-width;
-  height: $print-height;
-  min-height: $print-height;
-  max-height: $print-height;
-}
-
-
-

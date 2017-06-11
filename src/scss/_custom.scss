@@ -1,3 +1,26 @@
+// Give a better display to all cards when viewed on screen
+@media screen {
+  .card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    margin: .25rem;
+    border: .25rem dashed $black-10;
+  }
+}
+.card {
+  width: $print-width;
+  min-width: $print-width;
+  max-width: $print-width;
+  height: $print-height;
+  min-height: $print-height;
+  max-height: $print-height;
+  overflow: hidden;
+}
+
 // NAME {{{
 .name {
   padding-right: 4rem;

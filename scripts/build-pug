@@ -2,4 +2,8 @@
 set -e
 
 mkdir -p ./tmp
-pug ./src/pug/index.pug -o ./dist/
+pug \
+  ./src/pug/index.pug \
+  --pretty \
+  -O ./src/json/npcs.json \
+  -o ./dist/
