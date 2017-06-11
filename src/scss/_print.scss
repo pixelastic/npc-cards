@@ -1,13 +1,15 @@
 @media print {
-  // An index card is 3"x5" (76.2mm x 127mm)
   @page {
-    size: 127mm 76.2mm;
+    size: $print-height $print-width;
   }
   
   // Always change page before each card, forcing it to print each card on a new
   // real card
   .card {
     page-break-before: always;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    margin-top: -$print-height;
   }
 }
 
