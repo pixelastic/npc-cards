@@ -1,0 +1,40 @@
+---
+name: Homme-Loup (HB0)
+masks: 0
+picture: hb0.jpg
+description:
+- Homme-Loups
+- Sauvages
+- En meute
+roleplay:
+- Grondent
+- Féroces
+motivation:
+- Bestiaux
+- Suivent les ordres
+special:
+- Gang-up sur même cible
+- Annule armure sur Raise
+edges: []
+hindrances: []
+stats:
+  pace: '8'
+  charisma: '0'
+  agility: D8
+  smarts: D6
+  spirit: D6
+  strength: D4
+  vigor: D6
+  parry: 5
+  toughness: 5
+  wounds: 1
+  fighting: D6 / 2D6
+skills:
+- Climbing D6
+- Guts D4
+- Notice D6
+- Stealth D10
+- Taunt D6
+- Swimming D6
+spells: []
+gear: []

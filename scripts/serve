@@ -5,6 +5,7 @@ mkdir -p ./dist
 yarn run build
 
 parallelshell \
+  "./scripts/serve-yml" \
   "./scripts/serve-pug" \
   "./scripts/serve-scss" \
   "live-server ./dist"

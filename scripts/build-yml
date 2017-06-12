@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+var Promise = require('bluebird');
+var glob = Promise.promisify(require('glob'));
+var yaml = require('yamljs');
+var jsonfile = require('jsonfile');
+var _ = require('lodash');
+
+glob('./src/yml/*')
+  .then(types => {
+    var allTypes = _.map(types, type => {
+      type = _.last(type.split('/'));
+      return glob(`./src/yml/${type}/*.yml`).then(files => {
+        return {type, files}
+      });
+    });
+
+    return Promise.all(allTypes);
+  })
+  .then((data) => {
+    var allTypes = {};
+    _.each(data, (dataType) => {
+      allTypes[dataType.type] = _.sortBy(_.map(dataType.files, (file) => {
+        return yaml.load(file);
+      }), 'name');
+    });
+    return allTypes;
+  })
+  .then(data => {
+    jsonfile.writeFile('./tmp/data.json', data);
+  });
+

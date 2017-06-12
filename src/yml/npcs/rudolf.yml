@@ -1,0 +1,53 @@
+---
+name: Rudolf Rorsarch
+masks: 262
+picture: rudolf.jpg
+description: Roux. Costaud. Sourcils froncés. Boite un peu.
+roleplay:
+- Calme
+- Prudent
+- Parle peu
+- Écoute
+- Décision sans appel.
+motivation:
+- Protéger ville et habitants
+- 'Justice: ce qui sépare les hommes du Chaos'
+quotes:
+- Et vous, vous en pensez quoi ?
+- Personne ne sort d'ici
+- Trop dangereux
+- Écoutons leur explication d'abord
+stats:
+  pace: '4'
+  charisma: "+2"
+  agility: D8
+  smarts: D8
+  spirit: D8
+  strength: D8
+  vigor: D8
+  parry: 8
+  toughness: 8
+  wounds: 3
+  fighting: D10 / D8 + D10
+  shooting: D8 / 2D6
+skills:
+- Guts D10
+- Intimidation D8
+- Notice D10
+- Riding D8
+- Stealth D6
+- Persuasion D8
+- Knowledge (Battle) D8
+special:
+- D8 check each wave, +1 card/success
+- "+1 Shaken troops"
+- D10 Wild Die when in group
+edges:
+- Tactician
+- Command
+- Leader of Men
+hindrances:
+- Cautious
+- Lame
+- Loyal
+gear: Long Sword. Bow. Mail armor

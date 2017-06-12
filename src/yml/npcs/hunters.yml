@@ -1,0 +1,45 @@
+---
+name: Hunters
+masks: 0
+picture: hunters.jpg
+description:
+- Habits camouflage
+- Discrets
+roleplay:
+- Discutent par signe entre eux
+- Oeil aux aguets
+motivation:
+- Protéger le village
+quotes:
+- J'ai cru voir bouger quelque chose
+- Y a un bruit suspect par là bas
+special:
+- "+2 Shooting si ne bouge pas"
+edges:
+- Marksman
+hindrances:
+- Loyal
+stats:
+  pace: '6'
+  charisma: '0'
+  agility: D8
+  smarts: D6
+  spirit: D6
+  strength: D6
+  vigor: D6
+  parry: 5
+  toughness: 7
+  wounds: 1
+  fighting: D6 / 2D6
+  shooting: D8 (+2) / 2D6
+skills:
+- Guts D6
+- Notice D8
+- Stealth D6
+- Survirval D8
+- Tracking D8
+spells: []
+gear:
+- Short Sword
+- Bow
+- Mail Armor

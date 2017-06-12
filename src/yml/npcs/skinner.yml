@@ -1,0 +1,50 @@
+---
+name: Skinner
+masks: 0
+picture: skinner.jpg
+description:
+- 1/ Glabre. Peau blême et translucide. Cliquetis armure
+- 2/ Écorché vif. Énervé
+roleplay:
+- Provoque Von Friedrich
+- Overconfident
+motivation:
+- Se concentre sur Von Friedrich
+- Détruire le village
+- Récupérer la dague
+quotes:
+- Attaquez ! Rasez-tout !
+- Von Friedriiiich
+special:
+- Transfo si wound (Guts -2 ou Shaken)
+- Skin dead (3 rounds => +1 Wound)
+- Si 1 Fighting, frappe cible random
+edges:
+- 1/ Improved First Strike. Improved Counter Attack.
+- 2/ +2 Fighting, Dmg, Though. -2 Parry
+hindrances: []
+tactics:
+- Reste loin
+- Attaque seulement quand défenses tombées, avec son chien
+stats:
+  pace: '6'
+  charisma: "-2"
+  agility: D8
+  smarts: D8
+  spirit: D8
+  strength: D10
+  vigor: D10
+  parry: 8
+  toughness: 9
+  wounds: 3
+  fighting: D10 / D10 + D8 (AP 2)
+skills:
+- Guts D10
+- Climbing D8
+- Intimidation D10
+- Notice D8
+- Stealth D10
+spells: []
+gear:
+- Blood Sword
+- Bone Armor

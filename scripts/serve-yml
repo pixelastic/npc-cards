@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -e
+
+onchange './src/yml/**/*.yml' -- ./scripts/build-yml

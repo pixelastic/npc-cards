@@ -1,0 +1,42 @@
+---
+name: Paysans armés
+masks: 0
+picture: armed-peasants.jpg
+description:
+- Paysans
+- Jeunes, vieux
+- Armes et armures trop grandes
+roleplay:
+- Effrayés
+- Se donnent une contenance
+motivation:
+- Survivre
+quotes:
+- Dites à mes enfants que je les aime
+- Si on survit à ça, j'arrête de boire
+- Dégagez de mon mur !
+edges: []
+hindrances: []
+stats:
+  pace: '6'
+  charisma: '0'
+  agility: D6
+  smarts: D6
+  spirit: D6
+  strength: D6
+  vigor: D6
+  parry: 5
+  toughness: 7
+  wounds: 1
+  fighting: D6 / 2D6
+  shooting: D6 / 2D6
+skills:
+- Guts D6
+- Notice D6
+- Survival D6
+- Stealth D6
+spells: []
+gear:
+- Short sword
+- Bow
+- Mail Armor

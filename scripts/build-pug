@@ -5,5 +5,5 @@ mkdir -p ./tmp
 pug \
   ./src/pug/index.pug \
   --pretty \
-  -O ./src/json/npcs.json \
+  -O ./tmp/data.json \
   -o ./dist/

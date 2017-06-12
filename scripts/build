@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
+mkdir -p ./tmp
+
+yarn run build-yml
 yarn run build-pug
 yarn run build-scss

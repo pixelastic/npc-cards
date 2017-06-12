@@ -1,0 +1,50 @@
+---
+name: Beotor Anselm
+masks: 224
+picture: beotor.jpg
+description:
+- Obèse
+- Transpire
+- Marteau et livre de Sigmar
+roleplay:
+- À bout de souffle
+- Peureux
+- Cherche des faveurs
+- Estime la puissance des gens
+motivation:
+- Survivre
+- Égoïste
+- Obtenir cadeaux des autres
+quotes:
+- Que Sigmar nous protège !
+- Je vais plutôt rester à l'abri ici.
+- Vous n'avez plus besoin de ces babioles matérielles.
+edges:
+- Divine Faith
+hindrances:
+- Greedy
+- Obese
+stats:
+  pace: '5'
+  charisma: '0'
+  agility: D8
+  smarts: D6
+  spirit: D8
+  strength: D8
+  vigor: D8
+  parry: 6
+  toughness: 10
+  wounds: 3
+  fighting: D8 / D6 + D8
+  spellcasting: D8 / 15PP
+skills:
+- Guts D8
+- Intimidation D8
+- Notice D6
+- Healing D8
+spells:
+- Armor (2PP, +2/+4 Toughnessr)
+- Smite (2PP, +2/+4 Damage)
+- Healing (3PP, +1/+2 Wounds)
+gear: Hammer. Plate. Sigmar memorabilia
+

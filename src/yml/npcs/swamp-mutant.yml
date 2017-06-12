@@ -1,0 +1,32 @@
+---
+name: Mutant
+masks: 0
+picture: picture.jpg
+description: []
+roleplay: []
+motivation: []
+quotes: []
+edges: []
+hindrances: []
+stats:
+  pace: '6'
+  charisma: '0'
+  agility: D6
+  smarts: D6
+  spirit: D6
+  strength: D6
+  vigor: D6
+  parry: 5
+  toughness: 6
+  wounds: 1
+  fighting: D6 / 2D6
+  shooting: D6 / 2D6
+  spellcasting: D6 / 15PP
+skills:
+- Guts D6
+- Notice D6
+- Stealth D6
+spells: []
+gear:
+- Sword
+- Leather Armor

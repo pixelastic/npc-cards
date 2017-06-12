@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 set -e
 
-onchange './src/pug/**/*.pug' './src/json/*.json' -- ./scripts/build-pug
+onchange './src/pug/**/*.pug' './tmp/data.json' -- ./scripts/build-pug

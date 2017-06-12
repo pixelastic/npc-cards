@@ -10,18 +10,24 @@
     "build": "./scripts/build",
     "build-pug": "./scripts/build-pug",
     "build-scss": "./scripts/build-scss",
+    "build-yml": "./scripts/build-yml",
     "deploy": "./scripts/deploy",
     "postinstall": "./scripts/postinstall",
     "serve": "./scripts/serve"
   },
   "dependencies": {},
   "devDependencies": {
+    "bluebird": "^3.5.0",
+    "glob": "^7.1.2",
+    "jsonfile": "^3.0.0",
     "live-server": "^1.2.0",
+    "lodash": "^4.17.4",
     "node-sass-chokidar": "^0.0.2",
     "onchange": "^3.2.1",
     "parallelshell": "^2.0.0",
     "pug-cli": "^1.0.0-alpha6",
     "tachyons": "^4.7.4",
-    "tachyons-sass": "^4.7.1"
+    "tachyons-sass": "^4.7.1",
+    "yamljs": "^0.2.10"
   }
 }

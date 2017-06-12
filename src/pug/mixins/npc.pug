@@ -7,7 +7,7 @@ mixin npc(data)
   .card-wrapper
     .card.oh
       .flrnw.h-50
-        .picture.fln.w-third.bg-contain.bg-top(style=bg_image)
+        .picture.fln.w-third.bg-contain.bg-center(style=bg_image)
         .fla.flrnw
           .fla.flcnw
             .fln.flrnw
@@ -68,12 +68,12 @@ mixin npc(data)
               .fln.pl1.near-black= data.stats.vigor
 
       .h-50.flrnw.f6
-        .fla.flcnw.flcspb.pa2
+        .fla.flcnw.flcat.pa2
           +npc_detail('Description', data.description)
           +npc_detail('Roleplay', data.roleplay)
           +npc_detail('Motivation', data.motivation)
           +npc_detail('Tactics', data.tactics)
-          if data.quotes
+          if data.quotes && data.quotes.length
             .mb1
               .b.di Citations: 
               .di.i
