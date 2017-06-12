@@ -26,7 +26,6 @@
     "onchange": "^3.2.1",
     "parallelshell": "^2.0.0",
     "pug-cli": "^1.0.0-alpha6",
-    "tachyons": "^4.7.4",
     "tachyons-sass": "^4.7.1",
     "yamljs": "^0.2.10"
   }
