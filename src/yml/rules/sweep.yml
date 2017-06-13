@@ -1,0 +1,23 @@
+---
+name: Sweep
+reference: SWDX P36
+tldr: >
+  Attacks all adjacent creatures at -2.
+  Roll for each creature (friend or foe)
+
+  ✘ Cannot be used during a counterattack, with Frenzy or several times per round.
+
+  ✔ Can be used with Wild Attack
+
+  Improved Sweep: Removes -2 penalty
+full: >
+  Sweep allows a character to make a single Fighting attack and apply it against
+  all currently adjacent targets at a –2 penalty (friends and foes alike—be
+  careful). Resolve each damage roll separately. The attack is applied
+  immediately when rolled and only affects targets adjacent at that time.
+
+  A character may not use Sweep in the same round she uses Frenzy, nor may she
+  Sweep more than once per round, or with a second weapon held in another hand.
+  In effect, the hero may only perform Sweep once per action unless she somehow
+  gets two entire actions (perhaps under the effects of a spell or power, for
+  example).

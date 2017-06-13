@@ -1,4 +1,4 @@
-include ./mixins/npc
+include ./mixins/mixins
 doctype html
 html(lang="en")
   include ./partials/header
@@ -7,8 +7,8 @@ html(lang="en")
       each item in npcs
         +npc(item)
 
-      // each item in rules
-      //   +npc(item)
+      each item in rules
+        +rule(item)
       
       include ./partials/names-male
       include ./partials/names-female

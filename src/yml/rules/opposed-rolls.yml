@@ -1,0 +1,22 @@
+---
+name: Opposed rolls
+reference: SWDX P63
+tldr: >
+  Attacker does its roll first. Can benny it if needed.
+
+  Then Defender rolls its own.
+
+  Attacker wins if does more. In a tie, the defender wins.
+
+full: >
+  Sometimes rolls are “opposed” by an opponent. If two characters are wrestling
+  for control of an ancient artifact, for example, they both make Strength rolls
+  and compare results.
+
+  When this happens, the acting character gets his Trait total first. If he
+  wants to spend Bennies (see the next section), he does so now. When he’s
+  satisfied with his total, his opponent gets to roll. The highest total wins.
+  In a tie, the two foes continue to struggle with no clear victor.
+
+  The winner of an opposed roll considers his opponent’s total as his TN for
+  purposes of determining any raises

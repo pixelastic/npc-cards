@@ -1,0 +1,14 @@
+mixin rule(data)
+  - paras = data.tldr.split("\n")
+  .card-wrapper
+    .card.oh
+      .flcnw.h-100
+        .fln.flrnw
+          .fla
+            .name.fln.bg-black.white.caslon.f3.ph2.pv1= data.name
+          .fln.flc.pa2.gray= data.reference
+        .fla.flcnw.pa2
+          .fla
+            each para in paras
+              .mb2= para
+          .fln.f7.mta.i.dark-gray= data.full

@@ -1,9 +1,5 @@
 mixin npc(data)
   - bg_image = `background-image: url('./img/${data.picture}');`
-  - combat_stats = {}
-  - if (data.stats.fighting) combat_stats.fighting = data.stats.fighting.split(' / ')
-  - if (data.stats.shooting) combat_stats.shooting = data.stats.shooting.split(' / ')
-  - if (data.stats.spellcasting) combat_stats.spellcasting = data.stats.spellcasting.split(' / ')
   .card-wrapper
     .card.oh
       .flrnw.h-50
@@ -30,21 +26,9 @@ mixin npc(data)
                   -}
               .fla.flcnw.pt1.pr1.pl1
                 .fight-stats.fln.flcnw.flccv
-                  if combat_stats.fighting
-                    .fln.flrnw.mb1
-                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/fighting.png')")
-                      .fln.ph1.w3= combat_stats.fighting[0]
-                      .fln.ph1= combat_stats.fighting[1]
-                  if combat_stats.shooting
-                    .fln.flrnw.mb1
-                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/shooting.png')")
-                      .fln.ph1.w3= combat_stats.shooting[0]
-                      .fln.ph1= combat_stats.shooting[1]
-                  if combat_stats.spellcasting
-                    .fln.flrnw.mb1
-                      .fln.w2.bg-contain.bg-center(style="background-image:url('./img/icons/spellcasting.png')")
-                      .fln.ph1.w3= combat_stats.spellcasting[0]
-                      .fln.ph1= combat_stats.spellcasting[1]
+                  +npc_combat('fighting', data.stats.fighting)
+                  +npc_combat('shooting', data.stats.shooting)
+                  +npc_combat('spellcasting', data.stats.spellcasting)
                 .skills.fln.flrw.flral.mta
                   each skill in data.skills.sort()
                     .fln.mr1.flc
@@ -93,3 +77,15 @@ mixin npc_detail(title, value)
   .mb1
     .b.di= `${title}: `
     .di= `${value.join(". ")}.`
+
+mixin npc_combat(type, value)
+  - if (!value) return
+  - if (!Array.isArray(value)) value = [value]
+  - if (!value.length) return
+  - bg_image = `./img/icons/${type}.png`
+  each item in value
+    - split = item.split(' / ')
+    .fln.flrnw.mb1
+      .fln.w2.bg-contain.bg-center(style=`background-image:url(${bg_image})`)
+      .fln.ph1.w3= split[0]
+      .fln.ph1= split[1]

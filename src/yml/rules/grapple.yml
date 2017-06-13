@@ -1,5 +1,35 @@
 ---
-name: Grapple
-page: 262
-picture: test
-rule: scott
+name: Grappling
+reference: SWDX P73
+tldr: >
+  Opposed Fighting.
+
+  If Attacker does more than Defender, Defender is entangled.
+  On a Raise, he is also Shaken.
+
+  Once entangled, Defender can break free on his action.
+  Opposed Agility/Strength VS Agility/Strength.
+  If Defender does more than Attacker, he is free.
+  If Raise, can also act.
+
+  When Entangled, all other actions are at -4.
+
+  Attacker now attacks with opposed Fighting. 
+  On success, does Strength damage.
+  +D6 if Raise, as usual.
+full: >
+  Grappling is an opposed Fighting roll that causes no damage. If the attacker
+  wins, he’s entangled his foe. With a raise, his foe is also Shaken.
+
+  Once entangled, the defender may attempt to break free on his next action. Both
+  the defender and attacker pick either their Strength or Agility and then an
+  opposed roll is made. If successful, the defender is free but the attempt
+  consumes his action. If he does so with a raise, he’s free and may act normally.
+  Failure means he is still entangled. Instead of breaking free the defender may
+  attempt a different action but at a –4 penalty.
+
+  After grappling, the attacker may attempt to damage his victim on subsequent
+  rounds by making an opposed roll as above. On a success he does his Strength in
+  damage (gaining the extra d6 for a raise as normal).
+
+
