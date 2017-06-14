@@ -1,0 +1,17 @@
+---
+name: Armor
+reference: Fantasy P29
+picture: armor.jpg
+rank: Novice
+pp: 2
+range: Touch
+duration: 3 (1/round)
+trappings: A mystical glow, hardened skin, ethereal armor, a mass of insects or worms.
+tldr: >
+  +2 Armor
+
+  +4 si Raise
+full: >
+  Armor creates a field of magical protection around a character or an actual
+  shell of some sort, effectively giving the target Armor.  Success grants the
+  recipient 2 points of Armor.  A raise grants 4 points of Armor.

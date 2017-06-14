@@ -1,0 +1,30 @@
+---
+name: Healing
+reference: Fantasy P38
+picture: healing.jpg
+rank: Novice
+pp: 3
+range: Touch
+duration: Instant
+trappings: Laying on hands, touching the victim with a holy symbol, prayer.
+tldr: >
+  Must be used in the Golden Hour.
+
+  Removes 1 Wound with a Success, 2 with a Raise.
+
+  Spellcasting -1 per Wound of target, and -1 per wound of Caster.
+
+  Can cure Poison and Disease if used within 10mn.
+full: >
+  Healing repairs recent bodily damage. It must be used within the “golden hour,”
+  though, for it has no effect on wounds more than one hour old.
+
+  For Wild Cards, each use of the healing spell removes a wound with a success,
+  two with a raise. The roll suffers a penalty equal to the victim’s wounds (in
+  addition to any the caster might be suffering himself).
+
+  For Extras, the GM must first determine if the ally is dead (see Aftermath in
+  Savage Worlds). If so, no healing may be attempted.  If not, a successful arcane
+  skill roll returns the ally to the game Shaken.
+
+  Healing can also cure poison and disease if used within 10 minutes of the event.

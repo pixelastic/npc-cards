@@ -1,0 +1,32 @@
+mixin spell(data)
+  - bg_image = `background-image: url('./img/${data.picture}');`
+  - paras = data.tldr.split("\n")
+  .card-wrapper
+    .card.oh
+      .flcnw.h-100
+        .fln.flrnw.h-40
+          .fla.flcnw
+            .name.fln.bg-black.blue.caslon.f3.ph2.pv1= data.name
+            .fla.flrw
+              .fln.flrnw.w-50.flc
+                .fln.b Power Points:
+                .fln.pl3= data.pp
+              .fln.flrnw.w-50.flc
+                .fln.b.w3.mr3 Range:
+                .fln= data.range
+              .fln.flrnw.w-50.flc
+                .fln.b.w3.mr3 Duration:
+                .fln= data.duration
+              .fln.flrnw.w-50.flc
+                .fln.b.w3.mr3 Rank:
+                .fln= data.rank
+              .fla.i.mta.pa1.f6= data.trappings
+          .fln.w-third.bg-contain.bg-center(style=bg_image)
+
+        .fla.flcnw
+          .fla.pa2
+            each para in paras
+              .mb2= para
+          if data.full
+            .fln.f7.mta.i.dark-gray.pt1.bt.bw1.b--black-30.pa2= data.full
+

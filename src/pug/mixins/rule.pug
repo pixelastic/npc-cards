@@ -5,10 +5,11 @@ mixin rule(data)
       .flcnw.h-100
         .fln.flrnw
           .fla
-            .name.fln.bg-black.white.caslon.f3.ph2.pv1= data.name
+            .name.fln.bg-black.green.caslon.f3.ph2.pv1= data.name
           .fln.flc.pa2.gray= data.reference
         .fla.flcnw.pa2
           .fla
             each para in paras
               .mb2= para
-          .fln.f7.mta.i.dark-gray= data.full
+          if data.full
+            .fln.f7.mta.i.dark-gray.pt1.bt.bw1.b--black-30= data.full

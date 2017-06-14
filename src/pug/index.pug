@@ -6,9 +6,10 @@ html(lang="en")
     .card-list
       each item in npcs
         +npc(item)
-
       each item in rules
         +rule(item)
+      each item in spells
+        +spell(item)
       
       include ./partials/names-male
       include ./partials/names-female
