@@ -3,6 +3,8 @@
   @page {
     size: $print-height $print-width;
   }
+
+  .title { display: none; }
   
   .card {
     // Always change page before each card, forcing it to print each card on a new

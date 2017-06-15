@@ -3,13 +3,29 @@ doctype html
 html(lang="en")
   include ./partials/header
   body
+    +title('NPCS')
     .card-list
       each item in npcs
         +npc(item)
-      each item in rules
-        +rule(item)
+
+    +title('Monsters')
+    .card-list
+      each item in monsters
+        +npc(item)
+
+    +title('Spells')
+    .card-list
       each item in spells
         +spell(item)
-      
+
+    +title('Rules')
+    .card-list
+      each item in rules
+        +rule(item)
+
+    +title('Tables')
+    .card-list
       include ./partials/names-male
       include ./partials/names-female
+
+      
