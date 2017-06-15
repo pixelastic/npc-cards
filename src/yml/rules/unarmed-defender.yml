@@ -1,0 +1,13 @@
+---
+name: Unarmed Defender
+reference: SWDX P76
+tldr: >
+  If Defender has not Melee weapon, Attacker has +2 to Hit.
+
+  Animals and Monsters are never considered unarmed.
+full: >
+  If one character has a melee weapon and his foe doesn’t, the opponent is
+  considered unarmed and is very likely in a world of hurt. Since he can only
+  dodge and evade rather than parry, any armed attacker trying to hit him may add
+  +2 to his Fighting roll. Nearly all animals and monsters are considered armed
+  due to natural weapons such as claws and teeth.

@@ -10,12 +10,14 @@ description:
 tactics:
   - Intimidate
   - Sweep si plusieurs, sinon deux attaques
+  - Stupid
 special:
   - Smarts roll when out of Shaken. If fail, does not remember why here and will leave
 motivation: []
 quotes: []
 edges:
   - Sweep
+  - Big
 hindrances:
   - Stupid
 stats:
@@ -26,7 +28,7 @@ stats:
   spirit: D6
   strength: D10
   vigor: D12
-  parry: 4
+  parry: 5
   toughness: 10
   wounds: 1
   fighting:

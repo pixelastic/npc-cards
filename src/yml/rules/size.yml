@@ -1,0 +1,31 @@
+---
+name: Size
+reference: SWDX P133
+tldr: >
+  Sizes vary from -2 (cat) to +10 (Leviathan).
+
+  Modifier is applied to Toughness, with a minimum of 2.
+
+  Size -2: -2 to hit
+
+  Size +4 and more: +2 to hit
+
+  Size +8 and more: +4 to hit
+
+  -2 (cat, fairy), -1 (dog, goblin), 0 (Human), +1 (Orc), +2 (Horse, Bear), 
+  +3 (Ogre), +4 (Rhino), +5 (Elephant), +6 (Drake)
+  +7 (T-Rex), +8 (Dragon), +9 (Whale), +10 (Leviathan)
+
+full: >
+  A creature’s size has a lot to do with how much damage it can take, so we add
+  a modifier to its Toughness to reflect its tremendous mass. Note that
+  a beast’s size has nothing to do with Vigor—even a mighty kraken can catch
+  a cold or tire out.
+
+  The Toughness modifiers on the table below represent average specimens of
+  particular species for comparison, but there are always exceptions. Not every
+  great white has a +4 Toughness bonus. A young specimen might have a +3, while
+  a larger fish might be +5 or even +6. The same is true for humans. Small
+  humans suffer a –1 penalty, while those with the Brawny Edge gain a +1 bonus.
+  Use the table as a baseline when creating your own creatures then adjust for
+  particularly large or smaller versions [...]
