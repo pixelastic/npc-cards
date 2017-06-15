@@ -1,0 +1,32 @@
+---
+name: Incapacitation
+reference: SWDX P68
+tldr: >
+  Occurs if taking a 4th Wound (Wild Cards Only). Extras Dead on 1st Wound.
+
+  No Action Card, cannot do anything.
+
+  Need a Healing to remove Incapacitation.
+
+  Vigor Roll: 1 or less: Death. Failure: Permanent Injury + Bleeding Out. Success: Injury until healed. Raise: Injury for 24h.
+
+  Injuries (2D6): 2 (Stérile). 3-4 (One Arm Hindrance). 5-9 (Agility/Vigor/Strength Die Reduced). 10 (Lame Hindrance). 11-12 (Ugly/One-Eye/Smarts reduced).
+full: >
+  Incapacitated characters aren’t necessarily dead, but are generally too
+  beaten, battered, or bruised to do anything useful. They may not perform
+  actions and are not dealt Action Cards in combat. Incapacitated Extras are
+  removed from play.  Wild Cards are Incapacitated if they suffer more than
+  three wounds (cumulatively or all at once). When a Wild Card becomes
+  Incapacitated, make an immediate Vigor roll:
+
+  Total of 1 or Less: The character dies.
+
+  Failure: Roll on the Injury Table. The Injury is permanent and the victim is
+    Bleeding Out (see below).
+
+  Success: Roll on the Injury Table. The Injury goes away when all wounds are
+    healed.
+
+  Raise: Roll on the Injury Table. The Injury goes away in
+  24 hours, or when all wounds are healed
+

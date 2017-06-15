@@ -1,0 +1,46 @@
+---
+name: Bartholomeus
+masks: 0
+picture: bartholomeus.jpg
+description:
+  - Petit. Trapu. Bougonne
+roleplay:
+  - N'écoute qu'Otto
+  - Protége Lilith
+  - Prépare des potions jusqu'à épuisement des stocks
+motivation:
+  - N'a pas peur de mourir, attends son heure
+quotes:
+  - Grrmlb. Oh, dégagez de là.
+  - Passez moi l'extrait de Carnifern
+  - Me dérangez pas dans mes potions!
+edges: []
+hindrances:
+  - Death Wish
+  - Loyal (Otto)
+  - Vow (Protect Lilith)
+stats:
+  pace: 5
+  charisma: 0
+  agility: D6
+  smarts: D6
+  spirit: D6
+  strength: D8
+  vigor: D8
+  parry: 6
+  toughness: 7
+  wounds: 3
+  fighting: D8 / 2D6
+  spellcasting: 
+skills:
+  - Climbing D6
+  - Guts D8
+  - Knowledge (Alchemy) D8
+  - Notice D6
+  - Stealth D6
+  - Survival D6
+spells: []
+gear:
+- Potions of Blast
+- Potions of Poison
+- Potions of Healing

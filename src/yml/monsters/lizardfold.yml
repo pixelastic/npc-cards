@@ -1,0 +1,41 @@
+---
+name: Lizardfolk
+masks: 0
+picture: lizardfolk.jpg
+description:
+  - Hommes-Lézards
+  - Écailleux
+  - Brillants
+  - Yeux vitreux
+roleplay:
+  - Forcés d'attaquer
+  - Bêtes sauvages
+  - Veulent s'enfuir
+motivation:
+  - Pris entre deux feux
+  - Chair à canon
+quotes: []
+edges: []
+hindrances: []
+stats:
+  pace: 6
+  charisma: '0'
+  agility: D6
+  smarts: D6
+  spirit: D6
+  strength: D6
+  vigor: D6
+  parry: 5
+  toughness: 5
+  wounds: 1
+  fighting: D6 / 2D6
+  shooting: D6 / 2D6
+skills:
+  - Climbing D6
+  - Guts D6
+  - Notice D4
+  - Stealth D6
+spells: []
+gear:
+- Épée courte
+- Lambeaux de cuir

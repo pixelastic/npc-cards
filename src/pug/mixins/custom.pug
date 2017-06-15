@@ -1,0 +1,10 @@
+mixin custom(data)
+  - paras = data.content.split("\n")
+  .card-wrapper
+    .card.oh
+      .flcnw.h-100
+        .fln.flcnw
+          .name.fln.bg-black.white.caslon.f3.ph2.pv1= data.name
+          .fla.pa2.f6
+            each para in paras
+              .mb2= para

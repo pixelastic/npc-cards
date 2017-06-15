@@ -1,0 +1,34 @@
+---
+name: Fatigue
+reference: SWDX P86
+tldr: >
+  -1 to all Checks per Fatigue point.
+
+  If 3 points, Incapacitated.
+
+full: >
+  Some hazards cause direct damage, but most cause Fatigue—stress or weakness
+  that makes a victim less effective and can eventually lead to Incapacitation
+  or even death.  A character who falls victim to Fatigue passes through several
+  declining states before finally succumbing to his stress. Each of these states
+  and the penalties they incur are described below.
+
+  Fatigued: The hero is tiring quickly. All of his Trait checks suffer a –1
+    modifier. If he suffers Fatigue again, he becomes Exhausted.
+
+  Exhausted: The hero is fading fast. He suffers –2 to all Trait rolls. If he
+    suffers Fatigue again, he’s Incapacitated unless the hazard description says
+    otherwise.
+
+  Incapacitated: The victim collapses and is Incapacitated.  See Incapacitation
+    Effects under each Hazard for what happens next.
+
+  Recovery: Recovering from Fatigue varies depending on its source. Severe
+    hunger requires food, cold requires warmth, and so on. Exactly how Fatigue
+    is relieved depends on how it was acquired. This is explained under each
+    Hazard.
+
+  Multiple Hazards: It doesn’t matter what the source of Fatigue is. If a hero
+    who’s already Exhausted from hunger then suffers a level of Fatigue from
+    cold, he becomes Incapacitated.  A character suffering from multiple sources
+    of Fatigue must address both to recover.

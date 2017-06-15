@@ -1,0 +1,30 @@
+---
+name: Bleeding Out
+reference: SWDX P69
+tldr: >
+  Vigor Roll on each Round.
+
+  Failure: Death.
+
+  Success: Can act this round normally.
+
+  Raise: Stops Bleeding Out.
+
+  Healing the Character will stop the Bleeding Out, but will not Heal any Wound.
+full: >
+  Bleeding Out: The injured character must make a Vigor roll at the start of
+  each round after the one in which he was injured and before Action Cards are
+  dealt:
+
+  Success: The victim must roll again next round, or every minute thereafter if
+    not in combat.
+
+  Raise: The victim stabilizes and no further rolls are required.
+
+  Failure: The character dies from blood loss. For nonlethal damage, he’s
+    rendered unconscious for 1d6 hours.
+
+  Other characters may stop a victim’s bleeding by making a Healing roll. If
+  successful, the victim stabilizes immediately and no further rolls are
+  required.  This use of the Healing skill just stops the bleeding.  See page 78
+  for the use of the Healing skill to recover actual wounds.

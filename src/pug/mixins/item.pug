@@ -1,0 +1,13 @@
+mixin item(data)
+  - bg_image = `background-image: url('./img/${data.picture}');`
+  - paras = data.description.split("\n")
+  .card-wrapper
+    .card.oh
+      .flrnw.h-100
+        .fla.flcnw
+          .name.fln.bg-black.blue.caslon.f3.ph2.pv1= data.name
+          .fla.pa2
+            each para in paras
+              .mb2= para
+        .fln.w-third
+          .w-100.h-50.bg-contain.bg-center(style=bg_image)

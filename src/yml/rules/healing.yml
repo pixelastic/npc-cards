@@ -1,0 +1,40 @@
+---
+name: Healing
+reference: SWDX P78
+tldr: >
+  Healing Wounds Can only be done in the Golden Hour. Each attempt takes 10mn.  
+
+  Only one attempt per Healer per Target.
+
+  Success removes 1 Wound, Raise removes 2. Additional Raises have no effect.
+  Removing the Incapacitated counts as 1 Wound.
+
+  -1 per Wound of the Healer and -1 per Wound of the Target. -2 if no clean room
+  or medical supplies.
+
+  Natural Healing gives a Vigor roll every 5 days. Failure will add a new Wound.
+full: >
+  The Healing skill can be used to treat any wound suffered within the last
+  hour. Each attempt takes 10 minutes.
+
+  A character may only attempt to heal fresh wounds on a given patient once
+  within the hour they were sustained.  A different character may attempt
+  a Healing roll, but once attempted, that healer has done all he can for that
+  particular patient.
+
+  A success on a Healing roll removes one wound, and a raise removes two.
+  Further raises have no effect.
+
+  Modifiers: The healer must subtract the patient’s wound levels from his skill
+    roll. A wounded character trying to heal his own injuries suffers from both
+    effects (his wounds plus the wound penalty to the Healing roll).
+
+  Healing requires some basic supplies such as bandages and reasonably clean
+  water. If these aren’t available, the healer suffers a –2 penalty to his roll.
+
+  The Golden Hour: After one hour, only natural healing or the greater healing
+    power can help.
+
+  Incapacitated Patients: If a victim is Incapacitated the healer must first
+    make a Healing roll to remove that state, He may then attempt further
+    Healing rolls to remove actual wounds.

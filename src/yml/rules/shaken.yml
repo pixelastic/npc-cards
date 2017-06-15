@@ -1,0 +1,35 @@
+---
+name: Shaken
+reference: SWDX P69
+tldr: >
+  Failure on Spirit roll: Still Shaken, Only free actions
+
+  Success: No longer Shaken, Only free actions
+
+  Raise: No longer Shaken, can act normally
+
+  ✔ Can spend a Benny anytime to remove Shaken
+
+  ✘ Does not count for Ganging up.
+
+
+full: >
+  If the damage of an attack is a simple success (0-3 points over Toughness),
+  the target is Shaken. Shaken characters are rattled, distracted, or
+  momentarily shocked. They aren’t stunned but are temporarily suppressed enough
+  that they must make a Spirit roll to be effective.
+
+  On their action, a Shaken character must attempt to recover from being Shaken
+  by making a Spirit roll:
+
+  Failure: The character remains Shaken. He can only perform free actions (see
+    page 66).
+
+  Success: The character is no longer Shaken, but can still only perform free
+    actions.
+
+  Raise: The character is no longer Shaken and may act normally.
+
+  Spending Bennies: A player may spend a Benny at any time to remove his Shaken
+    status. If it’s currently his action, he may act as if he gained a raise on
+    the Spirit roll.

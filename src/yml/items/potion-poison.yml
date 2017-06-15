@@ -1,0 +1,9 @@
+---
+name: Potion of Poison
+picture: potion-poison.jpg
+description: >
+  Can be put on weapons or arrows. 10 charges.
+
+  Vigor check if Damaged. Fails = 1 Fatigue.
+  
+  -1 to all rolls per Fatigue. Incapacitated if 3.

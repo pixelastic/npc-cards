@@ -1,0 +1,10 @@
+---
+name: Potion of Fire
+picture: potion-blast.jpg
+description: >
+  Equivalent to a Grenade.
+
+  Range 5/10/20. Medium Burst Template. 3D6 Damage.
+
+  Target has 1 in 6 chances to catch fire. If catches fire, test again each
+  round. If catches fire again, now deals 1D10 damage each round.

@@ -18,10 +18,11 @@ quotes:
 - "(À elle-même:) Ça va aller... Ça va aller"
 special:
 - Se concentre sur les soins
-- Déni de ce qu'il se passse
+- Déni de ce qu'il se passe
 - Risque de craquer face à la tâche
 edges:
-- Attractive
+  - Attractive
+  - Healer
 hindrances:
 - Dreamy
 stats:

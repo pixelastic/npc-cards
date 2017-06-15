@@ -13,6 +13,11 @@ html(lang="en")
       each item in monsters
         +npc(item)
 
+    +title('Items')
+    .card-list
+      each item in items
+        +item(item)
+
     +title('Spells')
     .card-list
       each item in spells
@@ -23,9 +28,15 @@ html(lang="en")
       each item in rules
         +rule(item)
 
+    +title('Custom')
+    .card-list
+      each item in custom
+        +custom(item)
+
     +title('Tables')
     .card-list
       include ./partials/names-male
       include ./partials/names-female
+      include ./partials/loot-worthless
 
       

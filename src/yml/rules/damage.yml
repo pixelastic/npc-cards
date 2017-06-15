@@ -1,0 +1,27 @@
+---
+name: Damage
+reference: SWDX P69
+tldr: >
+  Success on Toughness: Shaken
+
+  Success on Toughness already Shaken: 1 Wound
+
+  X Raises on Toughness: X Wounds and Shaken
+
+  X Raises on Toughness already Shaken: X Wounds and Shaken
+
+
+full: >
+  The damage of an attack is compared to the victim’s Toughness just like a Trait
+  roll (though it isn’t one so you can’t spend a Benny on it). With a success, the
+  victim is Shaken.  For each raise over his Toughness he suffers a wound as well,
+  as shown below:
+
+  Success: The character is Shaken. If he was already Shaken, he suffers a wound
+    and remains Shaken. To cause a wound, the latter Shaken result must come
+    from a physical attack of some kind—not a Test of Wills or other maneuver.
+
+  Raise: The character suffers a wound for every raise on the damage roll, and
+    is Shaken. (When wounds are caused, it doesn’t matter if the victim was
+    already Shaken beforehand.)
+

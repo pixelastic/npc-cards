@@ -1,0 +1,24 @@
+---
+name: Wounds
+reference: SWDX P68
+tldr: >
+  Extras are Incapacitated with 1 Wound, Wild Card with 4 Wounds.
+
+  Each Wound gives a -1 penalty to all Rolls and Pace.
+
+full: >
+  Every raise on the damage roll inflicts a wound.  Wounded Extras are removed
+  from play. They’re dead, injured, or otherwise out of the fight.  Wild Cards
+  can take three wounds and still function.  If another wound would be caused
+  after that, they’re Incapacitated (see below). Wild Cards never have more than
+  three wounds—anything beyond that is just considered three wounds and
+  Incapacitated (see below).
+
+  Wound Penalties: Each wound a Wild Card suffers causes a –1 cumulative penalty
+    to his Pace (minimum of 1) and to all further Trait tests—up to the maximum
+    of a hero’s 3 wounds.  A hero with 2 wounds, for example, suffers a –2
+    penalty to his Pace and any Trait tests.
+
+  Timing: Characters sometimes take multiple hits on the same Action Card.
+    Resolve each damage roll separately and completely before moving on to the
+    next (including any Soak rolls).
