@@ -6,11 +6,18 @@ mixin spell(data)
       .flcnw.h-100
         .fln.flrnw.h-40
           .fla.flcnw
-            .name.fln.bg-black.blue.caslon.f3.ph2.pv1= data.name
+            .fln.flrnw
+              .name.fla.bg-black.blue.caslon.f3.ph2.pv1= data.name
+              .fln.flc.pa2.gray= data.reference
             .fla.flrw
-              .fln.flrnw.w-50.flc
-                .fln.b Power Points:
-                .fln.pl3= data.pp
+              if data.pp
+                .fln.flrnw.w-50.flc
+                  .fln.b Power Points:
+                  .fln.pl3= data.pp
+              if data.roll
+                .fln.flrnw.w-50.flc
+                  .fln.b Roll:
+                  .fln.pl3= data.roll
               .fln.flrnw.w-50.flc
                 .fln.b.w3.mr3 Range:
                 .fln= data.range

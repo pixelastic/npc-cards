@@ -21,7 +21,7 @@ mixin npc(data)
                   .fln.flc.b.f4.miw-50= data.stats.parry + 4
                 .toughness.fln.h-50.relative.flrw.flrspa
                   .absolute.absolute-0.o-50.bg-contain.bg-center(style="background-image:url('./img/icons/toughness.png')")
-                  - for(var i=0;i!=data.stats.wounds + 1;i++) {
+                  - for(var i=0;i!=data.stats.wounds + 2;i++) {
                   .fln.flc.b.f4.miw-50= data.stats.toughness + (i * 4)
                   -}
               .fla.flcnw.pt1.pr1.pl1

@@ -1,0 +1,17 @@
+---
+name: "[Trap] Explosion"
+content: >
+  PJs peuvent vouloir poser des pièges explosif.
+
+  Poser dans le village: Peuvent pièger n'importe quelle case sans problème.
+
+  Poser hors du village: Nécessite une Dramatic Task de Stealth sur 3 rounds. Si
+  échec, se fait tirer dessus. Si Club, risque de faire exploser la bombe.
+
+  Repérer dans le village: Test de Stealth de celui qui l'a posé opposé à Notice
+    de celui qui marche dessus. Si Notice réussi, le voit.
+
+  Repérer hors du village: Pris dans le combat, les pièges ne peuvent pas être
+    repérés.
+
+  Activation: Inflige 3D6 damage sur un Medium Burst Template.

@@ -1,0 +1,26 @@
+---
+name: Fear
+reference: SWDX P85
+tldr: >
+  Guts (Spirit) Check on first encounter to creature in that scenario.
+
+  Failure on Fear: Shaken and Vigor Roll of vomit (-1 Fatigue). Botched means Terror.
+
+  Failure on Terror: Roll 1D20 (+X, where X is the Fear factor of the creature)
+
+  (1-4): Fights back, +2 to all roll next action
+
+  (5-8): Shaken
+
+  (9-12): Full Pace + Run opposite direction
+
+  (13-16): Minor Phobia + Shaken
+
+  (17-18): Major Phobia + Shaken
+
+  (19-20): Physical change, Charisma -1 + Shaken
+
+  (21+): Incapacitated. Vigor -2. Success: Shaken for 1d4 rounds. Failure: Death
+    in 2d6 rounds. Healing at -4 to save him, but still incapacitated.
+full: >
+

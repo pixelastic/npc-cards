@@ -1,19 +1,33 @@
 ---
-name: Vague 1
+name: Vague 1 (Tester défenses)
 content: >
-  But: Tester les défenses. Sacrifice pour Skinner.
+  Knowledge Rudolf pour carte supplémentaire. Brouillard, soleil baisse.
 
-  Knowledge Rudolf pour carte supplémentaire. 
+  64": [WS], 10 Lizardfolk sont poussés vers le fort
 
-  64": [WS], 10 Lizardfold sont poussés vers le fort
+  56": [WS], 2 Lizardfolk fuient, mais sont tués par flèche. ~10 archers HB
+    s'avancent.
 
-  56": [WS], 2 Lizardfolk fuient, mais sont tués par flèche. Archers HB s'avance.
-
-  48": [WS]: Portée Longue (-4). Chaque Wound ou 2 Shaken en tue un. Archers
-    se mettent en position.
+  48": [WS]: Portée Longue (-4). Chaque Wound ou 2 Shaken en tue un. Archers se
+    mettent en position.
 
   40": [WS] Lizarfolk avancent. Archers tirent (-6). [N] 10 Lizardfolk arrivent. [E]
     Notice -2 pour voir 10 Lizardfolk (+2 Armor, partial cover).
 
+  32": [WSEN] Lizardfolk avancent (Long Range). Archers tirent (-6). [E] Archers
+    à couvert, -2 to hit.
+
+  24": [WSEN] Lizardfolk Medium Range (-2). Archers qui font 1 touchent leurs
+    alliés.
+
+  16": [WESN] Same as 24"
+
+  8": [WESN] Short Range (+0). Archers continuent de tirer
+
+  0": [WESN] Au pied des murailles. Archers arretent de tirer et se replient. D6
+    Climbing pour grimper en haut des murailles (+2 to be hit, Opposed STR pour faire tomber).
+
+  Rounds 10-20: Passent au dessus des murailles, attaquent -2. Attaquent
+    défenseurs. Vont aux portes si laissés seuls.
 
   

@@ -2,31 +2,43 @@
 name: Ungor (HB1)
 masks: 0
 picture: hb1.jpg
-description: []
-roleplay: []
-motivation: []
+description:
+  - Hommes-Hyenes
+  - Dos courbé, air fourbe
+roleplay:
+  - Attaquent les plus faibles
+motivation:
+  - Tuer les défenseurs de leur mur
+  - Tirer à l'arc sur les autres
+  - Ouvrir les portes
 quotes: []
 edges: []
 hindrances: []
+special: 
+  - Attaquent les plus faibles
+  - Se mettent à plusieurs sur cibles isolées
 stats:
-  pace: '6'
+  pace: 6
   charisma: '0'
   agility: D6
-  smarts: D6
-  spirit: D6
+  smarts: D4
+  spirit: D4
   strength: D6
-  vigor: D6
-  parry: 5
-  toughness: 6
-  wounds: 1
+  vigor: D8
+  parry: 6
+  toughness: 7
+  wounds: 0
   fighting: D6 / 2D6
   shooting: D6 / 2D6
-  spellcasting: D6 / 15PP
 skills:
-- Guts D6
-- Notice D6
-- Stealth D6
-spells: []
+  - Climbing D4
+  - Guts D4
+  - Intimidation D6
+  - Notice D4
+  - Stealth D8
+  - Survival D6
+  - Tracking D8
 gear:
-- Sword
+- Axe
+- Shield
 - Leather Armor

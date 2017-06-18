@@ -1,0 +1,9 @@
+---
+name: "[Trap] Spiked Pit"
+content: >
+  Trou de 1" avec des pics au fond.
+
+  Agility (-2 if Running) si marche dessus. Shaken si Failure et arrete le mouvement.
+
+  Camouflé: Si les PJs le camouflent, le premier doit réussir un test opposé
+    Stealth / Notice pour le voir, sinon il le prends automatiquement.

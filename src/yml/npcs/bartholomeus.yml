@@ -34,6 +34,7 @@ stats:
   spellcasting: 
 skills:
   - Climbing D6
+  - Healing D8
   - Guts D8
   - Knowledge (Alchemy) D8
   - Notice D6

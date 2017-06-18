@@ -13,7 +13,8 @@ tactics:
   - Stupid
 special:
   - Smarts roll when out of Shaken. If fail, does not remember why here and will leave
-motivation: []
+motivation:
+  - Détruire les portes
 quotes: []
 edges:
   - Sweep
@@ -30,7 +31,7 @@ stats:
   vigor: D12
   parry: 5
   toughness: 10
-  wounds: 1
+  wounds: 0
   fighting:
     - D8 + 1 / 2D10 + 1 (Trunk)
     - D8 - 1 / D10 + D4 (Bite)

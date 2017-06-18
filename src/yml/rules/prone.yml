@@ -1,0 +1,20 @@
+---
+name: Prone
+reference: SWDX P75
+tldr: >
+  Medium Cover (-2) to Range attack if more than 3" away
+
+  -2 Parry and Fighting on Melee
+
+  Getting up uses 2" of Pace
+full: >
+  Smart heroes lie down when lead starts flying. They move, shoot, and then get
+  prone behind cover before their action is over, forcing attackers to go on
+  Hold to attack them. Prone gives them Medium Cover against most attacks.
+  Ranged attacks within 3” ignore the modifier since the target is just as
+  exposed as if he were standing next to these characters.
+
+  If a prone defender is caught in melee, his Parry is reduced by 2 and he must
+  subtract 2 from his Fighting rolls. Getting up from prone costs 2” of
+  movement.
+

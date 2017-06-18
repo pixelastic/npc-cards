@@ -1,0 +1,19 @@
+---
+name: "[Muutwaug] Darkness"
+reference: Fantasy P40
+picture: muutwaug-darkness.jpg
+rank: Novice
+roll:
+range: Smarts
+duration: 3 (1/round)
+trappings: Corbeau intangible, laisse du noir derrière ses ailes. Milliers de petits corbeaux volettent.
+tldr: >
+  Large Burst Template
+
+  Bloque les lignes de vue. -6 pour attaquer au travers, dedans, de l'intérieur vers l'exterieur ou de l'exterieur vers l'intérieur.
+
+  -6 pour attaquer dedans, de l'intérieur vers l'exterieur et de l'exterieur
+full: >
+  This power does exactly what its name implies — creates an area of obscurement
+  equal to a Large Burst Template. Attacks into, out of, or through the area of
+  effect suffer the standard penalty for blindness of –6

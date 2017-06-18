@@ -1,0 +1,29 @@
+---
+name: "[Muutwaug] Teleport"
+reference: Fantasy P45
+picture: muutwaug-swarm.jpg
+rank: Seasoned
+roll: D12 (D12-2)
+range: 10" (20")
+duration: Instant
+trappings: Évaporation en nuage de corbeau, qui volent et réforment Muutwaug
+tldr: >
+  Disparait en nuage, puis se reforme.
+
+  Seulement si peut y faire voler au moins 1 corbeau.
+  
+  Mouvement pour le tour.
+full: >
+  Teleport allows a character to disappear and instantly reappear up to 10”
+  distant for each 3 Power Points spent, or 15” with a raise.  This counts as
+  his movement for the round.  Adjacent opponents do not get a free attack
+  against the teleporting character. If the hero wishes to teleport somewhere he
+  can’t see, he must make a Smarts roll at –2. If it is an unknown area he has
+  never seen, the roll is at a –4 penalty.
+
+  Failure of either roll means the teleporter hit an object of some sort. He
+  returns where he came from and is Shaken. A roll of 1 on the casting die
+  (regardless of the Wild Die) indicates a more serious disaster — in addition
+  to being Shaken he also suffers 2d6 damage.  The teleporter can never enter
+  a solid space even if he tries. The power instantly returns him to his
+  starting location as above.

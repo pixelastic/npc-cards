@@ -1,0 +1,22 @@
+---
+name: "[Muutwaug] Fear"
+reference: Fantasy P36
+picture: muutwaug-fear.jpg
+rank: Novice
+roll: D12
+range: Smarts x 2
+duration: Instant
+trappings: Muutwaug laisse voir sa véritable apparence pour quelques instants. Le monde est noir, corbeau immense, mange des cadavres, yeux rouges.
+tldr: >
+  Large Burst Template, centré sur Muutwaug.
+
+  Guts check -2, -4 si Raise.
+
+  Si Fail, Extras fuient (Pace + Run direction opposée), Wild Cards lancent sur Fear Table.
+full: >
+  This power causes the target overwhelming dread and horror. The area of effect
+  is the Large Burst Template. Every creature beneath the template must make
+  a Guts check, at –2 if the caster got a raise. Wild Cards who fail roll on the
+  Fear Table.
+
+  Extras are Panicked instead

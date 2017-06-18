@@ -10,8 +10,8 @@ roleplay:
 - Grondent
 - Féroces
 motivation:
-- Bestiaux
-- Suivent les ordres
+  - Tuer défenseurs pour laisser place aux HB1
+  - Attaquer les autres défenses
 special:
 - Gang-up sur même cible
 - Annule armure sur Raise
@@ -27,7 +27,7 @@ stats:
   vigor: D6
   parry: 5
   toughness: 5
-  wounds: 1
+  wounds: 0
   fighting: D6 / 2D6
 skills:
 - Climbing D6

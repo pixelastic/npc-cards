@@ -1,0 +1,30 @@
+---
+name: "[Muutwaug] Puppet"
+reference: Fantasy P40
+picture: muutwaug-charm.jpg
+rank: Veteran
+roll: D12-1
+range: Smarts
+duration: 3
+trappings: Mélodie entrainante qu'on ne parvient pas à oublier, qui reste dans la tête
+tldr: >
+  Large Burst Template centré sur  Muutwaug
+
+  Opposed Spirit against Spellcasting. Controle total si plus que la cible.
+
+  Si action "grave" (tuer ami, suicide, etc). Jet de Spirit (après l'action)
+  pour tenter de sortir du controle. Jet tous les 3 rounds sinon.
+
+  La malédiction de Muutwaug l'empeche de tuer quiconque, mais il peut les faire souffrir.
+full: >
+    Sometimes it pays to persuade others to do your fighting for you. Some do
+    this by blatant mind control, others do it by manufacturing visual and
+    auditory illusions.
+
+    Puppet is an opposed roll of the character’s arcane skill versus the
+    target’s Spirit. The user must score a success and beat the target’s roll to
+    gain complete control. The victim will attack friends and even commit
+    suicide, though such acts allow the victim another opposed Spirit roll to
+    break the spell.
+
+
