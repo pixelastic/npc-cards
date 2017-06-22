@@ -36,7 +36,7 @@ stats:
   vigor: D10
   parry: 5
   toughness: 9
-  wounds: 3
+  wounds: 1
   fighting: D8 / 2D10
 skills:
 - Guts D6

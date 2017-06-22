@@ -1,0 +1,45 @@
+---
+name: Hanzi
+masks: 0
+picture: hanzi.jpg
+description:
+  - Morne, triste
+  - Regard fuyant
+  - Une oreille en moins
+roleplay:
+  - Ne regarde jamais dans les yeux
+  - Regarde à droite ou gauche, jamais directement
+motivation:
+  - Se sent coupable d'être encore en vie quand tant d'autres sont morts (femme, enfants)
+quotes:
+  - Pourquoi lui? Pourquoi le tuer lui?
+  - Quel dieu sadique me laisse encore en vie?
+  - Chaque matin je prie pour être le suivant
+edges:
+  - Marksman
+hindrances:
+  - Death Wish
+stats:
+  pace: 6
+  charisma: '0'
+  agility: D8
+  smarts: D6
+  spirit: D6
+  strength: D8
+  vigor: D6
+  parry: 6
+  toughness: 7
+  wounds: 1
+  fighting: D8 / 2D6
+  shooting: D8 (+2) / 2D6
+skills:
+  - Guts D6
+  - Notice D8
+  - Stealth D6
+  - Survival D8
+  - Tracking D8
+spells: []
+gear:
+  - Bow
+  - Sword
+  - Mail Armor

@@ -33,11 +33,11 @@ stats:
   fighting: D6 / 2D6
   shooting: D8 (+2) / 2D6
 skills:
-- Guts D6
-- Notice D8
-- Stealth D6
-- Survirval D8
-- Tracking D8
+  - Guts D6
+  - Notice D8
+  - Stealth D6
+  - Survival D8
+  - Tracking D8
 spells: []
 gear:
 - Short Sword

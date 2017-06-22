@@ -27,7 +27,7 @@ stats:
   vigor: D8
   parry: 8
   toughness: 8
-  wounds: 3
+  wounds: 1
   fighting: D10 / D8 + D10
   shooting: D8 / 2D6
 skills:

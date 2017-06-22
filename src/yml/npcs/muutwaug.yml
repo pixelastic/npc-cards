@@ -27,7 +27,7 @@ special:
   - Barrier, Darkness, Sleep, Charm pour isoler Dague
 stats:
   pace: 6
-  charisma: +2
+  charisma: "+2"
   agility: D6
   smarts: D12+2
   spirit: D12

@@ -34,7 +34,7 @@ stats:
   vigor: D8
   parry: 6
   toughness: 10
-  wounds: 3
+  wounds: 1
   fighting: D8 / D6 + D8
   spellcasting: 
     - D8 / Armor (2PP)
