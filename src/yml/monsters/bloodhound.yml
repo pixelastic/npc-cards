@@ -2,30 +2,43 @@
 name: Bloodhound
 masks: 0
 picture: bloodhound.jpg
-description: []
-roleplay: []
-motivation: []
+description:
+  - Immense chien écorché
+  - Sang goutte en dessous de lui
+  - Sniffe l'air
+roleplay:
+  - Éclabousse de sang en attaquant
+motivation:
+  - Sniffe porteur de la Dague
+  - Concentré sur Dague
 quotes: []
-edges: []
+edges:
+  - Improved Sweep
 hindrances: []
+special:
+  - Fear (-2)
+  - Ne peut pas subir plus d'1 Wound à la fois
+  - Chaque Wound spawn un blood spawn
+  - Ganging up divisé par deux
 stats:
-  pace: '6'
+  pace: '8'
   charisma: '0'
   agility: D6
   smarts: D6
-  spirit: D6
-  strength: D6
-  vigor: D6
-  parry: 5
-  toughness: 6
+  spirit: D8
+  strength: D12
+  vigor: D12
+  parry: 7
+  toughness: 10
   wounds: 3
-  fighting: D6 / 2D6
-  shooting: D6 / 2D6
-  spellcasting: D6 / 15PP
+  fighting: 
+    - D10 / D12+D8
+    - D10 / Sweep D12+D8
 skills:
-- Guts D6
-- Notice D6
-- Stealth D6
+  - Guts D6
+  - Notice D6
+  - Stealth D6
+  - Intimidation D8
 spells: []
 gear:
 - Sword

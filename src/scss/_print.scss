@@ -16,6 +16,8 @@
     margin-top: -$print-height;
 
     margin-right: 50px;
+
+    -webkit-print-color-adjust: exact;
   }
   // We change the dimensions so the printing works correctly
   .card-wrapper {

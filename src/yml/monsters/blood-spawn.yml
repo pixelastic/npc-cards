@@ -1,0 +1,37 @@
+---
+name: Blood Spawn
+masks: 0
+picture: blood-spawn.jpg
+description:
+  - Elementaire de sang
+  - Flaque au sol
+  - Tendons de sang en tout sens
+roleplay:
+  - Avance doucement
+  - Tente d'englober victime dans tendons de sang
+edges:
+  - +2 Shaken
+hindrances: []
+special:
+  - Fear (-2) (1ere fois)
+  - Immune to Raises
+  - Half damage if non-magical
+  - Grapple, Opposed Fighting. Opposed STR to get out. 1 / Fatigue per round if grappled
+stats:
+  pace: 4
+  charisma: '0'
+  agility: D6
+  smarts: D4
+  spirit: D8
+  strength: D10
+  vigor: D10
+  parry: 6
+  toughness: 8
+  wounds: 0
+  fighting: D8 / Grapple
+skills:
+  - Intimidation D8
+  - Notice D6
+  - Stealth D6
+spells:
+gear:

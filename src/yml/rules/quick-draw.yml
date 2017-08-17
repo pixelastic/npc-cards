@@ -1,0 +1,25 @@
+---
+name: Quick Draw
+reference: SWDX P36
+tldr: >
+  Drawing a weapon usually costs an action. Drawing and using then incurrs -2.
+
+  With Quick Draw, one can change weapons freely, without having the penalty.
+
+  ✔ Peut tirer à l'arc, puis prendre une épée et charger.
+
+  ✘ Peut pas tirer en Marksman, puis prendre une épée et charger.
+
+  ✘ Impossible de Shooting si déjà en Melée. Range weapon considérée comme
+  Improvised en Melee.
+
+  ✔/✘ Peut Fighting Melee, puis Shooting Range si annonce au début. -2 sur
+  chaque. Si jamais 1er ennemi pas mort, devient Improvised en Melee.
+
+  ✘ Peut pas changer d'arme pour un First Strike.
+
+  ✔ Si Improved First Strike + Quick Draw, Agility -2 pour jeter arme actuelle
+  et prendre autre.
+
+full: >
+

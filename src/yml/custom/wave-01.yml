@@ -1,33 +1,24 @@
 ---
 name: Vague 1 (Tester défenses)
 content: >
-  Knowledge Rudolf pour carte supplémentaire. Chaleur étouffante, soleil aveugle.
+  Chaleur étouffante, soleil aveugle.
 
-  64": [WS], 10 Lizardfolk sont poussés vers le fort
+  56": [WS] 12 Lizardfolk poussés vers le fort. Fuient mais tués. [WSN] 10 Archers HB s'avancent 
 
-  56": [WS], 2 Lizardfolk fuient, mais sont tués par flèche. ~10 archers HB
-    s'avancent.
+  48": [WS] Lizardfolk (8/12). Chaque Wound ou 2 Shaken en tue un. [WSN] Archers tirent (10/14) jusqu'au bout. [N] HB1+HB3 se massent (attaqueront pas)
 
-  48": [WS]: Portée Longue (-4). Chaque Wound ou 2 Shaken en tue un. Archers se
-    mettent en position.
+  40": [WS] Lizarfolk (8/12). [E] Notice -2 pour voir 16 Lizardfolk (10/14, partial cover).
 
-  40": [WS] Lizarfolk avancent. Archers tirent (-6). [N] 10 Lizardfolk arrivent. [E]
-    Notice -2 pour voir 10 Lizardfolk (+2 Armor, partial cover).
+  32": [WS] Lizardfolk (8/12). [E] Notice +0, Lizardfolk (10/14).
 
-  32": [WSEN] Lizardfolk avancent (Long Range). Archers tirent (-6). [E] Archers
-    à couvert, -2 to hit.
+  24": [WSE] Lizardfolk Medium Range (6/10), out of forest.
 
-  24": [WSEN] Lizardfolk Medium Range (-2). Archers qui font 1 touchent leurs
-    alliés.
+  16": [WSE] Same as 24"
 
-  16": [WESN] Same as 24"
+  8": [WSE] Short Range (4/8). [WS] Archers qui font 1 touchent Lizardfolk.
 
-  8": [WESN] Short Range (+0). Archers continuent de tirer
-
-  0": [WESN] Au pied des murailles. Archers arretent de tirer et se replient. D6
+  0": [WSE] Au pied des murailles. Archers arretent de tirer et se replient. D6
     Climbing pour grimper en haut des murailles (+2 to be hit, Opposed STR pour faire tomber).
 
   Rounds 10-20: Passent au dessus des murailles, attaquent -2. Attaquent
     défenseurs. Vont aux portes si laissés seuls.
-
-  
