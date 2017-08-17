@@ -6,25 +6,37 @@ var yaml = require('yamljs');
 var jsonfile = require('jsonfile');
 var _ = require('lodash');
 
-glob('./src/yml/*')
-  .then(types => {
-    var allTypes = _.map(types, type => {
-      type = _.last(type.split('/'));
-      return glob(`./src/yml/${type}/*.yml`).then(files => {
-        return {type, files}
+glob('./src/yml/**/*.yml')
+  .then(files => {
+    return _.map(files.sort(), filepath => {
+      return filepath.replace('./src/yml/', '').replace('.yml', '').split('/');
+    });
+  })
+  .then(files => {
+    let data = {};
+    _.each(files, filepath => {
+      let maxIndex = filepath.length - 1;
+      let pointer = data;
+      _.each(filepath, (path, index) => {
+        let isPathAlreadyDefined = !!pointer[path];
+        if (isPathAlreadyDefined) {
+          pointer = pointer[path];
+          return;
+        }
+
+        let isLeaf = (index == maxIndex);
+        if (isLeaf) {
+          let ymlFilepath = `./src/yml/${filepath.join('/')}.yml`;
+          return pointer.push(yaml.load(ymlFilepath));
+        }
+
+        let isLastBeforeLeaf = (index == maxIndex - 1);
+        let newBranch = isLastBeforeLeaf ? [] : {};
+        pointer[path] = newBranch;
+        pointer = pointer[path];
       });
     });
-
-    return Promise.all(allTypes);
-  })
-  .then((data) => {
-    var allTypes = {};
-    _.each(data, (dataType) => {
-      allTypes[dataType.type] = _.sortBy(_.map(dataType.files, (file) => {
-        return yaml.load(file);
-      }), 'name');
-    });
-    return allTypes;
+    return data;
   })
   .then(data => {
     jsonfile.writeFile('./tmp/data.json', data);

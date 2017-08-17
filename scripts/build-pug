@@ -3,7 +3,7 @@ set -e
 
 mkdir -p ./tmp
 pug \
-  ./src/pug/index.pug \
+  ./src/pug/*.pug \
   --pretty \
   -O ./tmp/data.json \
   -o ./dist/

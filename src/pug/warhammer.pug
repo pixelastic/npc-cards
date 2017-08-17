@@ -1,0 +1,38 @@
+include ./mixins/mixins
+doctype html
+html(lang="en")
+  include ./partials/header
+  body
+    +title('NPCS')
+    .card-list
+      each item in warhammer.npcs
+        +npc(item)
+
+    +title('Monsters')
+    .card-list
+      each item in warhammer.monsters
+        +npc(item)
+
+    +title('Items')
+    .card-list
+      each item in warhammer.items
+        +item(item)
+
+    +title('Spells')
+    .card-list
+      each item in warhammer.spells
+        +spell(item)
+
+    +title('Custom')
+    .card-list
+      each item in warhammer.custom
+        +custom(item)
+
+    +title('Tables')
+    .card-list
+      include ./partials/ranges
+      include ./partials/names-male
+      include ./partials/names-female
+      include ./partials/loot-worthless
+
+

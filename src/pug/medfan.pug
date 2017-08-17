@@ -1,0 +1,16 @@
+include ./mixins/mixins
+doctype html
+html(lang="en")
+  include ./partials/header
+  body
+    +title('Items')
+    .card-list
+      each item in medfan.items
+        +item(item)
+
+    +title('Tables')
+    .card-list
+      include ./partials/names-male
+      include ./partials/names-female
+      include ./partials/loot-worthless
+      
